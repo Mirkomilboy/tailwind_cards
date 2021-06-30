@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./build/tailwind.css">
+</head>
+<body class="font-noto mx-auto px-40 pt-20 bg-gray-200">
+    <div class="w-full flex">
+        <div class="w-1/4">
+            <div class="px-6 py-8 rounded-lg bg-white">
+                <div class="flex justify-between items-center font-bold border-b border-gray-300 pb-6">
+                    <h1 class="text-xs"><span class="text-3xl font-roboto">240</span>件</h1>
+                    <div class="flex items-center space-x-2">
+                        <img src="img/refresh.svg" alt="refresh">
+                        <p class="text-[13px] text-main-blue">条件をリセット</p>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h1 class="text-sm font-bold pb-2">ステータス</h1>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">募集前</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">募集中</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">募集終了</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h1 class="text-sm font-bold pb-2">利回り(%)</h1>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">1%以上</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">2%以上</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">3%以上</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h1 class="text-sm font-bold pb-2">運用期間(ヶ月)</h1>
+                    <div class="flex justify-between items-center">
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">~6ヶ月</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">~12ヶ月</p>
+                        </div>
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">~24ヶ月</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h1 class="text-sm font-bold pb-2">ファンド条件</h1>
+                    <div class="flex items-center">
+                        <div class="flex items-center space-x-2">
+                            <input class="w-3.5 h-3.5" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">保証有り</p>
+                        </div>
+                        <div class="flex items-center space-x-2 pl-4">
+                            <input class="w-3.5 h-3.5 text-gray-300" type="checkbox" name="" id="">
+                            <p class="text-sm text-gray-900">担保なし</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pt-6">
+                    <h1 class="text-sm font-bold pb-2">参加企業</h1>
+                    <select class="w-full border border-gray-300 rounded-md py-2 px-1 focus:outline-none first-of-child" name="" id="">
+                        <option class="text-red-300" value="">すべて</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="w-3/4 pl-6">
+            <!-- first item box -->
+            <div class="bg-white rounded-lg overflow-hidden mb-6">
+                <div class="flex">
+                    <p class="bg-main-blue text-white font-medium w-28 flex justify-center items-center">募集中</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                </div>
+                <div class="flex items-center w-full space-x-6 py-6 px-8">
+                    <div class="w-60 h-36 bg-reddish rounded-lg"></div>
+                    <div class="w-full">
+                        <h1 class="text-xl font-bold">保育園みらいオンラインファンド横浜磯子</h1>
+                        <div class="flex items-center space-x-2 py-4">
+                            <p class="text-gray-400 text-xs">予定利回り</p>
+                            <p class="text-sm font-bold">3.0%</p>
+                            <p class="text-gray-400 text-xs">運用期間</p>
+                            <p class="text-sm font-bold">約12ヶ月</p>
+                            <p class="text-gray-400 text-xs">募集金額</p>
+                            <p class="text-sm font-bold">12,456,890円</p>
+                        </div>
+                        <div class="relative w-full">
+                            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded-lg bg-blue-50">
+                              <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-main-blue"></div>
+                            </div>
+                          </div>
+                        <div class="flex items-center pt-2 space-x-3.5">
+                            <img src="img/building.svg" alt="">
+                            <p class="text-sm">株式会社 さくらさくパワーズ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- second item box -->
+            <div class="bg-white rounded-lg overflow-hidden mb-6">
+                <div class="flex">
+                    <p class="bg-[#BE9867] text-white font-medium w-28 flex justify-center items-center">募集中</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                </div>
+                <div class="flex items-center w-full space-x-6 py-6 px-8">
+                    <div class="w-60 h-36 bg-reddish rounded-lg"></div>
+                    <div class="w-full">
+                        <h1 class="text-xl font-bold">保育園みらいオンラインファンド横浜磯子</h1>
+                        <div class="flex items-center space-x-2 py-4">
+                            <p class="text-gray-400 text-xs">予定利回り</p>
+                            <p class="text-sm font-bold">3.0%</p>
+                            <p class="text-gray-400 text-xs">運用期間</p>
+                            <p class="text-sm font-bold">約12ヶ月</p>
+                            <p class="text-gray-400 text-xs">募集金額</p>
+                            <p class="text-sm font-bold">12,456,890円</p>
+                        </div>
+                        <div class="relative w-full">
+                            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded-lg bg-blue-50">
+                              <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-main-blue"></div>
+                            </div>
+                          </div>
+                        <div class="flex items-center pt-2 space-x-3.5">
+                            <img src="img/building.svg" alt="">
+                            <p class="text-sm">株式会社 さくらさくパワーズ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- third item box -->
+            <div class="bg-white rounded-lg overflow-hidden mb-6">
+                <div class="flex">
+                    <p class="bg-[#414345] text-white font-medium w-28 flex justify-center items-center">募集中</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                </div>
+                <div class="flex items-center w-full space-x-6 py-6 px-8">
+                    <div class="w-60 h-36 bg-[#FF5353] rounded-lg"></div>
+                    <div class="w-full">
+                        <h1 class="text-xl font-bold">保育園みらいオンラインファンド横浜磯子</h1>
+                        <div class="flex items-center space-x-2 py-4">
+                            <p class="text-gray-400 text-xs">予定利回り</p>
+                            <p class="text-sm font-bold">3.0%</p>
+                            <p class="text-gray-400 text-xs">運用期間</p>
+                            <p class="text-sm font-bold">約12ヶ月</p>
+                            <p class="text-gray-400 text-xs">募集金額</p>
+                            <p class="text-sm font-bold">12,456,890円</p>
+                        </div>
+                        <div class="relative w-full">
+                            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded-lg bg-blue-50">
+                              <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-main-blue"></div>
+                            </div>
+                          </div>
+                        <div class="flex items-center pt-2 space-x-3.5">
+                            <img src="img/building.svg" alt="">
+                            <p class="text-sm">株式会社 さくらさくパワーズ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- fourth item box -->
+            <div class="bg-white rounded-lg overflow-hidden mb-6">
+                <div class="flex">
+                    <p class="text-main-blue font-medium w-28 flex justify-center items-center border border-main-blue rounded-tl-lg">募集中</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                    <p class="text-main-blue/60 text-xs font-bold border-2 rounded border-main-blue border-opacity-50 ml-3 my-4 py-1 px-2">FUELのイチオシ</p>
+                </div>
+                <div class="flex items-center w-full space-x-6 py-6 px-8">
+                    <div class="w-60 h-36 bg-reddish rounded-lg"></div>
+                    <div class="w-full">
+                        <h1 class="text-xl font-bold">保育園みらいオンラインファンド横浜磯子</h1>
+                        <div class="flex items-center space-x-2 py-4">
+                            <p class="text-gray-400 text-xs">予定利回り</p>
+                            <p class="text-sm font-bold">3.0%</p>
+                            <p class="text-gray-400 text-xs">運用期間</p>
+                            <p class="text-sm font-bold">約12ヶ月</p>
+                            <p class="text-gray-400 text-xs">募集金額</p>
+                            <p class="text-sm font-bold">12,456,890円</p>
+                        </div>
+                        <div class="relative w-full">
+                            <div class="overflow-hidden h-4 mb-4 text-xs flex rounded-lg bg-blue-50">
+                              <div style="width:30%" class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-main-blue"></div>
+                            </div>
+                          </div>
+                        <div class="flex items-center pt-2 space-x-3.5">
+                            <img src="img/building.svg" alt="">
+                            <p class="text-sm">株式会社 さくらさくパワーズ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
